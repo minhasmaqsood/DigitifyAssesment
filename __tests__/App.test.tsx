@@ -7,7 +7,7 @@ import SurveyScreen from '../src/screens/survey/SurveyScreen';
 import SplashScreen from '../src/screens/splash/Splash'; 
 import ResultScreen from '../src/screens/result/ResultScreen';
 import { QUIZ } from '../src/helpers/Constants'; 
-import * as NavigationHelpers from '../base/navigation/NavigationHelpers'; 
+import * as NavigationHelpers from '../Base/navigation/NavigationHelpers'; 
 import Strings from '../res/strings/Strings'; 
 import { resetSelectedAnswers } from '../src/redux/reducers/SurveyReducer'; 
 

@@ -13,7 +13,7 @@ import Field from '../../components/Field';
 import { useDispatch, useSelector } from 'react-redux';
 import { setSelectedAnswers } from '../../redux/reducers/SurveyReducer';
 import { QUIZ } from '../../helpers/Constants';
-import * as NavigationHelpers from '../../../base/navigation/NavigationHelpers';
+import * as NavigationHelpers from '../../../Base/navigation/NavigationHelpers';
 import Strings from '../../../res/strings/Strings';
 import * as Progress from 'react-native-progress';
 import colors from '../../../res/typography/colors';

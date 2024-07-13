@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import ResultScreen from '../src/screens/result/ResultScreen'; 
 import { resetSelectedAnswers } from '../src/redux/reducers/SurveyReducer'; 
-import { resetActions } from '../base/navigation/NavigationHelpers'; 
+import { resetActions } from '../Base/navigation/NavigationHelpers'; 
 import Strings from '../res/strings/Strings'; 
 
 jest.mock('../Base/navigation/NavigationHelpers', () => ({

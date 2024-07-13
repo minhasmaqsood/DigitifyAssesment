@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { QUIZ } from '../../helpers/Constants';
 import Strings from '../../../res/strings/Strings';
-import { navigate, resetActions } from '../../../base/navigation/NavigationHelpers';
+import { navigate, resetActions } from '../../../Base/navigation/NavigationHelpers';
 import { useDispatch } from 'react-redux';
 import { resetSelectedAnswers } from '../../redux/reducers/SurveyReducer';
 import colors from "../../../res/typography/colors";
