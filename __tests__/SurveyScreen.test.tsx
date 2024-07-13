@@ -1,11 +1,9 @@
 import React from 'react';
-import { View } from 'react-native';
 import { render, fireEvent, act } from '@testing-library/react-native';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import SurveyScreen from '../src/screens/survey/SurveyScreen';
 import { QUIZ } from '../src/helpers/Constants';
-import * as NavigationHelpers from '../Base/navigation/NavigationHelpers'; 
 import Strings from '../res/strings/Strings'; 
 
 // Mock the NavigationHelpers
@@ -30,7 +28,7 @@ jest.mock('@react-navigation/native', () => {
 
 const mockStore = configureStore([]);
 const initialState = {
-  QuestionnaireReducer: {
+  SurveyReducer: {
     selectedAnswers: [],
   },
 };

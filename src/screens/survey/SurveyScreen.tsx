@@ -11,16 +11,16 @@ import {
 import Carousel from 'react-native-snap-carousel';
 import Field from '../../components/Field';
 import { useDispatch, useSelector } from 'react-redux';
-import { setSelectedAnswers } from '../../redux/reducers/QuestionnaireReducer';
+import { setSelectedAnswers } from '../../redux/reducers/SurveyReducer';
 import { QUIZ } from '../../helpers/Constants';
-import * as NavigationHelpers from '../../../Base/navigation/NavigationHelpers';
+import * as NavigationHelpers from '../../../base/navigation/NavigationHelpers';
 import Strings from '../../../res/strings/Strings';
 import * as Progress from 'react-native-progress';
 import colors from '../../../res/typography/colors';
 
 const SurveyScreen: React.FC = () => {
   const dispatch = useDispatch();
-  const { selectedAnswers } = useSelector((state: any) => state?.QuestionnaireReducer);
+  const { selectedAnswers } = useSelector((state: any) => state?.SurveyReducer);
   const [ index, setIndex ] = useState<number>(0);
   const { width } = useWindowDimensions();
   const carouselReference = useRef<any>(null);

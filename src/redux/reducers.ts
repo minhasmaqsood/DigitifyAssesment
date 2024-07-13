@@ -1,7 +1,7 @@
 import { combineReducers } from "@reduxjs/toolkit";
-import QuestionnaireReducer from "./reducers/QuestionnaireReducer";
+import SurveyReducer from "./reducers/SurveyReducer";
 
 //combine all reducers
 export default combineReducers({
-   QuestionnaireReducer
+   SurveyReducer
 });

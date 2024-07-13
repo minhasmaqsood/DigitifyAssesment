@@ -9,8 +9,8 @@ const initialState: initialState = {
 };
 
 
-export const QuestionnaireReducer = createSlice({
-  name: 'QuestionnaireReducer',
+export const SurveyReducer = createSlice({
+  name: 'SurveyReducer',
   initialState,
   reducers: {
     setSelectedAnswers:(state, action) => {
@@ -22,6 +22,6 @@ export const QuestionnaireReducer = createSlice({
   },
 });
 
-export const { setSelectedAnswers ,resetSelectedAnswers} = QuestionnaireReducer.actions;
+export const { setSelectedAnswers ,resetSelectedAnswers} = SurveyReducer.actions;
 
-export default QuestionnaireReducer.reducer;
+export default SurveyReducer.reducer;
