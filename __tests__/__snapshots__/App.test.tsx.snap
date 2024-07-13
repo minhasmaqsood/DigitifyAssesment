@@ -1,0 +1,3712 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Snapshots ResultScreen renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    {
+      "flex": 1,
+      "justifyContent": "flex-end",
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../res/images/background.jpg",
+      }
+    }
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "alignSelf": "center",
+          "color": "orange",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      15
+    </Text>
+    <View
+      style={
+        {
+          "flexShrink": 1,
+          "marginBottom": 20,
+          "marginHorizontal": 10,
+          "paddingBottom": 20,
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "gray",
+            "fontWeight": "600",
+            "marginBottom": 10,
+            "marginTop": 20,
+            "textAlign": "center",
+          }
+        }
+      >
+        Conservative
+      </Text>
+      <Text
+        style={{}}
+      >
+        Your risk profile dictates your investment strategy. A Low Risk profile favors safety with secure, low-yield investments like savings accounts and bonds. Moderate Risk balances safety and growth for moderate returns. High Risk seeks high returns through riskier assets like stocks, aiming for substantial long-term growth.
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "bottom": 10,
+          "position": "absolute",
+          "right": 10,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FFB52E",
+            "borderRadius": 50,
+            "height": 100,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 100,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 18,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Restart
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`App Component Snapshots SplashScreen renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../res/images/background.jpg",
+      }
+    }
+    style={
+      {
+        "height": "100%",
+        "resizeMode": "cover",
+        "width": "100%",
+      }
+    }
+    testID="splash-screen-image"
+  />
+</View>
+`;
+
+exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+  testID="survey-screen"
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-end",
+        "backgroundColor": "#FFB52E",
+        "flexDirection": "row",
+        "height": 100,
+        "justifyContent": "space-between",
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignSelf": "center",
+        "marginHorizontal": 20,
+        "marginTop": 35,
+      }
+    }
+    testID="progress-bar"
+  />
+  <RCTScrollView
+    activeAnimationOptions={null}
+    activeAnimationType="timing"
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    automaticallyAdjustContentInsets={false}
+    autoplay={false}
+    autoplayDelay={1000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    collapsable={false}
+    containerCustomStyle={{}}
+    contentContainerCustomStyle={{}}
+    contentContainerStyle={
+      [
+        {
+          "paddingLeft": 0,
+          "paddingRight": 0,
+        },
+        {},
+      ]
+    }
+    data={
+      [
+        {
+          "name": "investment_experience",
+          "options": [
+            "Novice",
+            "Intermediate",
+            "Experienced",
+          ],
+          "question": "Select your investment experience level:",
+          "scores": [
+            1,
+            2,
+            3,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "risk_tolerance",
+          "options": [
+            "Very conservative",
+            "Conservative",
+            "Moderate",
+            "Aggressive",
+          ],
+          "question": "Rate your comfort with investment risk:",
+          "scores": [
+            1,
+            2,
+            3,
+            4,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "investment_goals",
+          "options": [
+            "Preserve capital",
+            "Generate income",
+            "Grow wealth",
+            "Speculate",
+          ],
+          "question": "What are your primary investment objectives?",
+          "scores": [
+            1,
+            2,
+            3,
+            4,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "investment_time_horizon",
+          "options": [
+            "Short-term (less than 1 year)",
+            "Medium-term (1-5 years)",
+            "Long-term (more than 5 years)",
+          ],
+          "question": "Choose your investment time horizon:",
+          "scores": [
+            1,
+            2,
+            3,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "financial_knowledge",
+          "options": [
+            "Limited",
+            "Moderate",
+            "Extensive",
+          ],
+          "question": "Rate your familiarity with financial markets:",
+          "scores": [
+            1,
+            2,
+            3,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "liquidity_preference",
+          "options": [
+            "Very important",
+            "Moderately important",
+            "Less important",
+          ],
+          "question": "How important is liquidity for your investments?",
+          "scores": [
+            1,
+            2,
+            3,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "investment_style",
+          "options": [
+            "Conservative",
+            "Moderate",
+            "Aggressive",
+          ],
+          "question": "Which investment style suits you best?",
+          "scores": [
+            1,
+            2,
+            3,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "primary_income_source",
+          "options": [
+            "Employment",
+            "Business/Entrepreneurship",
+            "Investments",
+            "Other",
+          ],
+          "question": "What is your primary source of income?",
+          "scores": [
+            1,
+            2,
+            3,
+            4,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "investment_confidence",
+          "options": [
+            "Not confident",
+            "Moderately confident",
+            "Very confident",
+          ],
+          "question": "How confident are you in making investment decisions?",
+          "scores": [
+            1,
+            2,
+            3,
+          ],
+          "type": "choice",
+        },
+        {
+          "name": "investment_history",
+          "options": [
+            "Yes",
+            "No",
+          ],
+          "question": "Have you previously invested in financial markets?",
+          "scores": [
+            1,
+            2,
+          ],
+          "type": "choice",
+        },
+      ]
+    }
+    decelerationRate="fast"
+    directionalLockEnabled={true}
+    enableMomentum={false}
+    enableSnap={true}
+    firstItem={0}
+    hasParallaxImages={false}
+    horizontal={true}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    inverted={false}
+    itemWidth={750}
+    layout="default"
+    lockScrollTimeoutDuration={1000}
+    lockScrollWhileSnapping={true}
+    loop={false}
+    loopClonesPerSide={3}
+    onLayout={[Function]}
+    onResponderRelease={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onSnapToItem={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    overScrollMode="never"
+    pinchGestureEnabled={false}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={false}
+    scrollEventThrottle={1}
+    scrollsToTop={false}
+    shouldOptimizeUpdates={true}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    slideStyle={{}}
+    sliderWidth={750}
+    style={
+      {
+        "flexDirection": "row",
+        "opacity": 0,
+        "width": 750,
+      }
+    }
+    swipeThreshold={20}
+    useScrollView={true}
+    vertical={false}
+  >
+    <View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 1,
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              Select your investment experience level:
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Novice
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Intermediate
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Experienced
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              Rate your comfort with investment risk:
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Very conservative
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Conservative
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Moderate
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Aggressive
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              What are your primary investment objectives?
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Preserve capital
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Generate income
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Grow wealth
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Speculate
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              Choose your investment time horizon:
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Short-term (less than 1 year)
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Medium-term (1-5 years)
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Long-term (more than 5 years)
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              Rate your familiarity with financial markets:
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Limited
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Moderate
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Extensive
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              How important is liquidity for your investments?
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Very important
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Moderately important
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Less important
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              Which investment style suits you best?
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Conservative
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Moderate
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Aggressive
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              What is your primary source of income?
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Employment
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Business/Entrepreneurship
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Investments
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Other
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              How confident are you in making investment decisions?
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Not confident
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Moderately confident
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Very confident
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        pointerEvents="box-none"
+        style={
+          {
+            "opacity": 0.7,
+            "transform": [
+              {
+                "scale": 0.9,
+              },
+            ],
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "minHeight": 550,
+            }
+          }
+        >
+          <View>
+            <Text
+              style={
+                {
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "marginBottom": 24,
+                  "marginHorizontal": 20,
+                  "marginTop": 25,
+                }
+              }
+            >
+              Have you previously invested in financial markets?
+            </Text>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    Yes
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 6,
+                    "flexDirection": "row",
+                    "marginHorizontal": 15,
+                    "minHeight": 50,
+                    "shadowOpacity": 0.1,
+                    "shadowRadius": 10,
+                  }
+                }
+              >
+                <View
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "marginRight": 20,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "testUri": "../../react-native-check-box/img/ic_check_box_outline_blank.png",
+                        }
+                      }
+                      style={
+                        {
+                          "tintColor": "gray",
+                        }
+                      }
+                    />
+                  </View>
+                </View>
+                <View
+                  style={
+                    {
+                      "flexShrink": 1,
+                      "marginHorizontal": 5,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      [
+                        {
+                          "color": "gray",
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "textAlign": "center",
+                        },
+                        {
+                          "color": "gray",
+                        },
+                      ]
+                    }
+                  >
+                    No
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "bottom": 10,
+        "position": "absolute",
+        "right": 10,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFB52E",
+          "borderRadius": 50,
+          "height": 100,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 100,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 18,
+          }
+        }
+      >
+        Next
+      </Text>
+    </View>
+  </View>
+</View>
+`;
