@@ -1,27 +1,26 @@
-import { createSlice } from '@reduxjs/toolkit';
+import {createSlice} from '@reduxjs/toolkit';
 
 interface initialState {
-  selectedAnswers:[]
+  selectedAnswers: [];
 }
 
 const initialState: initialState = {
-  selectedAnswers:[]
+  selectedAnswers: [],
 };
-
 
 export const SurveyReducer = createSlice({
   name: 'SurveyReducer',
   initialState,
   reducers: {
-    setSelectedAnswers:(state, action) => {
+    setSelectedAnswers: (state, action) => {
       state.selectedAnswers = action.payload;
     },
-    resetSelectedAnswers: (state) => {
+    resetSelectedAnswers: state => {
       state.selectedAnswers = [];
     },
   },
 });
 
-export const { setSelectedAnswers ,resetSelectedAnswers} = SurveyReducer.actions;
+export const {setSelectedAnswers, resetSelectedAnswers} = SurveyReducer.actions;
 
 export default SurveyReducer.reducer;

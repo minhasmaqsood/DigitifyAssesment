@@ -16,14 +16,23 @@ export const QUIZ = [
   {
     name: 'investment_goals',
     question: 'What are your primary investment objectives?',
-    options: ['Preserve capital', 'Generate income', 'Grow wealth', 'Speculate'],
+    options: [
+      'Preserve capital',
+      'Generate income',
+      'Grow wealth',
+      'Speculate',
+    ],
     type: 'choice',
     scores: [1, 2, 3, 4],
   },
   {
     name: 'investment_time_horizon',
     question: 'Choose your investment time horizon:',
-    options: ['Short-term (less than 1 year)', 'Medium-term (1-5 years)', 'Long-term (more than 5 years)'],
+    options: [
+      'Short-term (less than 1 year)',
+      'Medium-term (1-5 years)',
+      'Long-term (more than 5 years)',
+    ],
     type: 'choice',
     scores: [1, 2, 3],
   },
@@ -51,7 +60,12 @@ export const QUIZ = [
   {
     name: 'primary_income_source',
     question: 'What is your primary source of income?',
-    options: ['Employment', 'Business/Entrepreneurship', 'Investments', 'Other'],
+    options: [
+      'Employment',
+      'Business/Entrepreneurship',
+      'Investments',
+      'Other',
+    ],
     type: 'choice',
     scores: [1, 2, 3, 4],
   },

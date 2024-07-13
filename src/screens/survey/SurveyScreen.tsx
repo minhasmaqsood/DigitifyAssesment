@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, {useState, useRef} from 'react';
 import {
   SafeAreaView,
   View,
@@ -10,9 +10,9 @@ import {
 } from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 import Field from '../../components/Field';
-import { useDispatch, useSelector } from 'react-redux';
-import { setSelectedAnswers } from '../../redux/reducers/SurveyReducer';
-import { QUIZ } from '../../helpers/Constants';
+import {useDispatch, useSelector} from 'react-redux';
+import {setSelectedAnswers} from '../../redux/reducers/SurveyReducer';
+import {QUIZ} from '../../helpers/Constants';
 import * as NavigationHelpers from '../../../Base/navigation/NavigationHelpers';
 import Strings from '../../../res/strings/Strings';
 import * as Progress from 'react-native-progress';
@@ -20,13 +20,13 @@ import colors from '../../../res/typography/colors';
 
 const SurveyScreen: React.FC = () => {
   const dispatch = useDispatch();
-  const { selectedAnswers } = useSelector((state: any) => state?.SurveyReducer);
-  const [ index, setIndex ] = useState<number>(0);
-  const { width } = useWindowDimensions();
+  const {selectedAnswers} = useSelector((state: any) => state?.SurveyReducer);
+  const [index, setIndex] = useState<number>(0);
+  const {width} = useWindowDimensions();
   const carouselReference = useRef<any>(null);
 
-  const renderField = ({ item }: any) => (
-    <View style={{ minHeight: 550 }}>
+  const renderField = ({item}: any) => (
+    <View style={{minHeight: 550}}>
       <Field
         key={item?.name}
         options={item?.options}
@@ -61,7 +61,7 @@ const SurveyScreen: React.FC = () => {
     } else {
       carouselReference?.current?.snapToNext();
     }
-  }
+  };
 
   return (
     <View style={styles.container} testID="survey-screen">
@@ -91,10 +91,7 @@ const SurveyScreen: React.FC = () => {
         onSnapToItem={index => setIndex(index)}
       />
       <View style={styles.buttonContainer}>
-        <TouchableOpacity
-          style={styles.nextButton}
-          onPress={onPressNext}
-        >
+        <TouchableOpacity style={styles.nextButton} onPress={onPressNext}>
           <Text style={styles.nextButtonText}>
             {index === QUIZ.length - 1 ? Strings.FINISH : Strings.NEXT}
           </Text>
@@ -166,7 +163,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 10,
     right: 10,
-  }
+  },
 });
 
 export default SurveyScreen;

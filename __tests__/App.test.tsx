@@ -1,15 +1,15 @@
 import React from 'react';
-import { render, fireEvent, act } from '@testing-library/react-native';
+import {render, fireEvent, act} from '@testing-library/react-native';
 import renderer from 'react-test-renderer';
-import { Provider } from 'react-redux';
+import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
-import SurveyScreen from '../src/screens/survey/SurveyScreen'; 
-import SplashScreen from '../src/screens/splash/Splash'; 
+import SurveyScreen from '../src/screens/survey/SurveyScreen';
+import SplashScreen from '../src/screens/splash/Splash';
 import ResultScreen from '../src/screens/result/ResultScreen';
-import { QUIZ } from '../src/helpers/Constants'; 
-import * as NavigationHelpers from '../Base/navigation/NavigationHelpers'; 
-import Strings from '../res/strings/Strings'; 
-import { resetSelectedAnswers } from '../src/redux/reducers/SurveyReducer'; 
+import {QUIZ} from '../src/helpers/Constants';
+import * as NavigationHelpers from '../Base/navigation/NavigationHelpers';
+import Strings from '../res/strings/Strings';
+import {resetSelectedAnswers} from '../src/redux/reducers/SurveyReducer';
 
 // Mock the NavigationHelpers
 jest.mock('../Base/navigation/NavigationHelpers', () => ({
@@ -47,29 +47,33 @@ describe('App Component Snapshots', () => {
   });
 
   it('SurveyScreen renders correctly', () => {
-    const tree = renderer.create(
-      <Provider store={store}>
-        <SurveyScreen />
-      </Provider>
-    ).toJSON();
+    const tree = renderer
+      .create(
+        <Provider store={store}>
+          <SurveyScreen />
+        </Provider>,
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('SplashScreen renders correctly', () => {
-    const navigation = { replace: jest.fn() };
-    const tree = renderer.create(
-      <SplashScreen navigation={navigation} />
-    ).toJSON();
+    const navigation = {replace: jest.fn()};
+    const tree = renderer
+      .create(<SplashScreen navigation={navigation} />)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('ResultScreen renders correctly', () => {
-    const route = { params: 15 };
-    const tree = renderer.create(
-      <Provider store={store}>
-        <ResultScreen route={route} />
-      </Provider>
-    ).toJSON();
+    const route = {params: 15};
+    const tree = renderer
+      .create(
+        <Provider store={store}>
+          <ResultScreen route={route} />
+        </Provider>,
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
@@ -82,10 +86,10 @@ describe('SurveyScreen Functionality', () => {
   });
 
   it('navigates to ResultScreen after finishing the quiz', () => {
-    const { getByText, debug } = render(
+    const {getByText, debug} = render(
       <Provider store={store}>
         <SurveyScreen />
-      </Provider>
+      </Provider>,
     );
 
     debug();
@@ -96,14 +100,13 @@ describe('SurveyScreen Functionality', () => {
         fireEvent.press(getByText(Strings.NEXT));
       }
     });
-
   });
 
   it('updates the progress bar correctly', () => {
-    const { getByText, queryByTestId, debug } = render(
+    const {getByText, queryByTestId, debug} = render(
       <Provider store={store}>
         <SurveyScreen />
-      </Provider>
+      </Provider>,
     );
 
     debug(); // Output the rendered component tree to verify the presence of progress bar
@@ -124,10 +127,10 @@ describe('ResultScreen Functionality', () => {
   });
 
   it('handles the "Restart" button correctly', () => {
-    const { getByText } = render(
+    const {getByText} = render(
       <Provider store={store}>
-        <ResultScreen route={{ params: 15 }} />
-      </Provider>
+        <ResultScreen route={{params: 15}} />
+      </Provider>,
     );
 
     fireEvent.press(getByText(Strings.RESTART));
@@ -137,10 +140,10 @@ describe('ResultScreen Functionality', () => {
   });
 
   it('determines the correct risk profile based on score', () => {
-    const { getByText, rerender, debug } = render(
+    const {getByText, rerender, debug} = render(
       <Provider store={store}>
-        <ResultScreen route={{ params: 15 }} />
-      </Provider>
+        <ResultScreen route={{params: 15}} />
+      </Provider>,
     );
 
     expect(getByText('Conservative')).toBeTruthy();

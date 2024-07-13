@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
+import React, {useState, useEffect} from 'react';
+import {View, StyleSheet, Text, Pressable} from 'react-native';
 import colors from '../../res/typography/colors';
 import CheckBox from 'react-native-check-box';
-
 
 export type selectedOptionType = {
   [index: string]: boolean;
@@ -14,12 +13,7 @@ export type FieldProps = {
   onChange: (value: null | string[]) => void;
 };
 
-const Field = ({
-  question,
-  options,
-  selectedValues,
-  onChange,
-}: FieldProps) => {
+const Field = ({question, options, selectedValues, onChange}: FieldProps) => {
   const [selectedOption, setSelectedOption] = useState<selectedOptionType>({});
 
   useEffect(() => {
@@ -62,42 +56,41 @@ const Field = ({
         [option]: true, // Set only the current option to true
       });
     }
-  }
+  };
 
   return (
     <View>
-      {question && (
-        <Text style={styles.question}>
-          {question}
-        </Text>
-      )}
-      {
-        options?.map((option: string, idx: number) => {
-          return (
-            <View key={idx}>
-
-              <View
-                style={{
-                  ...styles.chip
-                }}
-              >
-                <CheckBox
-                  style={styles.checkbox}
-                  onClick={() => onOptionPress(option)}
-                  isChecked={selectedOption[option]}
-                  checkBoxColor={selectedOption[option] ? colors.orange : colors.grayColor}
-                  testID="checkbox"
-
-                />
-                <View style={styles.questionContainer}>
-                  <Text style={[styles.questionText, { color: selectedOption[option] ? colors.orange : colors.grayColor }]}>
-                    {option}
-                  </Text>
-                </View>
+      {question && <Text style={styles.question}>{question}</Text>}
+      {options?.map((option: string, idx: number) => {
+        return (
+          <Pressable key={idx} onPress={() => onOptionPress(option)}>
+            <View style={styles.chip}>
+              <CheckBox
+                style={styles.checkbox}
+                onClick={() => onOptionPress(option)}
+                isChecked={selectedOption[option]}
+                checkBoxColor={
+                  selectedOption[option] ? colors.orange : colors.grayColor
+                }
+                testID="checkbox"
+              />
+              <View style={styles.questionContainer}>
+                <Text
+                  style={[
+                    styles.questionText,
+                    {
+                      color: selectedOption[option]
+                        ? colors.orange
+                        : colors.grayColor,
+                    },
+                  ]}>
+                  {option}
+                </Text>
               </View>
             </View>
-          );
-        })}
+          </Pressable>
+        );
+      })}
     </View>
   );
 };
@@ -107,8 +100,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
     marginTop: 25,
     marginHorizontal: 20,
-    fontSize: 17
-
+    fontSize: 17,
   },
   chip: {
     // backgroundColor: 'white',
@@ -123,8 +115,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 15,
     minHeight: 50,
     borderRadius: 6,
-    flexDirection: 'row'
-
+    flexDirection: 'row',
   },
   questionContainer: {
     flexShrink: 1,
@@ -134,12 +125,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'gray',
     textAlign: 'center',
-    fontSize: 15
+    fontSize: 15,
   },
-  checkbox:
-  {
-    marginRight: 20
-  }
+  checkbox: {
+    marginRight: 20,
+  },
 });
 
 export default Field;

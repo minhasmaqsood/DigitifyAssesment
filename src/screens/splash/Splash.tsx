@@ -1,6 +1,8 @@
-import React, { useEffect } from 'react';
-import { View, Image, StyleSheet } from 'react-native';
-const SplashScreen: React.FC = ({ navigation }) => {
+import React, {useEffect} from 'react';
+import {View, Image, StyleSheet} from 'react-native';
+
+
+const SplashScreen: React.FC = ({navigation}) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       navigation?.replace('SurveyScreen');

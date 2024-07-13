@@ -1,10 +1,10 @@
 import React from 'react';
-import { render, fireEvent, act } from '@testing-library/react-native';
-import { Provider } from 'react-redux';
+import {render, fireEvent, act} from '@testing-library/react-native';
+import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 import SurveyScreen from '../src/screens/survey/SurveyScreen';
-import { QUIZ } from '../src/helpers/Constants';
-import Strings from '../res/strings/Strings'; 
+import {QUIZ} from '../src/helpers/Constants';
+import Strings from '../res/strings/Strings';
 
 // Mock the NavigationHelpers
 jest.mock('../Base/navigation/NavigationHelpers', () => ({
@@ -41,19 +41,19 @@ describe('SurveyScreen Component', () => {
   });
 
   it('renders correctly', () => {
-    const { getByTestId } = render(
+    const {getByTestId} = render(
       <Provider store={store}>
         <SurveyScreen />
-      </Provider>
+      </Provider>,
     );
     expect(getByTestId('survey-screen')).toBeTruthy();
   });
 
   it('navigates to ResultScreen after finishing the quiz', () => {
-    const { getByText, debug } = render(
+    const {getByText, debug} = render(
       <Provider store={store}>
         <SurveyScreen />
-      </Provider>
+      </Provider>,
     );
 
     debug(); // Output the rendered component tree to verify the presence of 'NEXT' button
@@ -69,10 +69,10 @@ describe('SurveyScreen Component', () => {
   });
 
   it('updates the progress bar correctly', () => {
-    const { getByText, queryByTestId, debug } = render(
+    const {getByText, queryByTestId, debug} = render(
       <Provider store={store}>
         <SurveyScreen />
-      </Provider>
+      </Provider>,
     );
 
     debug(); // Output the rendered component tree to verify the presence of progress bar
@@ -85,11 +85,10 @@ describe('SurveyScreen Component', () => {
   });
 
   it('toggles the checkbox state correctly', () => {
-    const { getByTestId } = render(
+    const {getByTestId} = render(
       <Provider store={store}>
         <SurveyScreen />
-      </Provider>
+      </Provider>,
     );
-
   });
 });
