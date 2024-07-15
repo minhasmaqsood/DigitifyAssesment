@@ -475,7 +475,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               Select your investment experience level:
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -484,8 +514,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -563,7 +591,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -572,8 +630,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -651,7 +707,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -660,8 +746,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -778,7 +862,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               Rate your comfort with investment risk:
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -787,8 +901,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -866,7 +978,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -875,8 +1017,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -954,7 +1094,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -963,8 +1133,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1042,7 +1210,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1051,8 +1249,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1169,7 +1365,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               What are your primary investment objectives?
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1178,8 +1404,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1257,7 +1481,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1266,8 +1520,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1345,7 +1597,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1354,8 +1636,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1433,7 +1713,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1442,8 +1752,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1560,7 +1868,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               Choose your investment time horizon:
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1569,8 +1907,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1648,7 +1984,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1657,8 +2023,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1736,7 +2100,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1745,8 +2139,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1863,7 +2255,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               Rate your familiarity with financial markets:
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1872,8 +2294,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -1951,7 +2371,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -1960,8 +2410,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2039,7 +2487,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2048,8 +2526,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2166,7 +2642,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               How important is liquidity for your investments?
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2175,8 +2681,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2254,7 +2758,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2263,8 +2797,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2342,7 +2874,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2351,8 +2913,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2469,7 +3029,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               Which investment style suits you best?
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2478,8 +3068,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2557,7 +3145,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2566,8 +3184,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2645,7 +3261,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2654,8 +3300,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2772,7 +3416,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               What is your primary source of income?
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2781,8 +3455,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2860,7 +3532,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2869,8 +3571,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -2948,7 +3648,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -2957,8 +3687,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -3036,7 +3764,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -3045,8 +3803,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -3163,7 +3919,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               How confident are you in making investment decisions?
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -3172,8 +3958,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -3251,7 +4035,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -3260,8 +4074,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -3339,7 +4151,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -3348,8 +4190,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -3466,7 +4306,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
             >
               Have you previously invested in financial markets?
             </Text>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -3475,8 +4345,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
@@ -3554,7 +4422,37 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                 </View>
               </View>
             </View>
-            <View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
               <View
                 style={
                   {
@@ -3563,8 +4461,6 @@ exports[`App Component Snapshots SurveyScreen renders correctly 1`] = `
                     "flexDirection": "row",
                     "marginHorizontal": 15,
                     "minHeight": 50,
-                    "shadowOpacity": 0.1,
-                    "shadowRadius": 10,
                   }
                 }
               >
