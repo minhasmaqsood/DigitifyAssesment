@@ -59,6 +59,11 @@ const ResultScreen: React.FC<ResultScreenProps> = ({route}) => {
     <ImageBackground
       source={require('../../../res/images/background.jpg')}
       style={styles.backgroundImage}>
+      <StatusBar
+        translucent
+        barStyle="dark-content"
+        backgroundColor={'transparent'}
+      />
       <View style={styles.spacing}>
         <Text style={styles.yourScore}>{totalScore}</Text>
         <View style={styles.textContainer}>

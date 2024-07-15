@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
-import {View, Image, StyleSheet} from 'react-native';
-
+import {View, Image, StyleSheet, StatusBar} from 'react-native';
 
 const SplashScreen: React.FC = ({navigation}) => {
   useEffect(() => {
@@ -13,6 +12,11 @@ const SplashScreen: React.FC = ({navigation}) => {
 
   return (
     <View style={styles.container}>
+      <StatusBar
+        translucent
+        barStyle="dark-content"
+        backgroundColor={'transparent'}
+      />
       <Image
         source={require('../../../res/images/background.jpg')}
         style={styles.image}

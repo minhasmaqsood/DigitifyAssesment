@@ -65,7 +65,7 @@ const SurveyScreen: React.FC = () => {
 
   return (
     <View style={styles.container} testID="survey-screen">
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" backgroundColor={colors.orange} />
       <View style={styles.header} />
       <View style={styles.progress} testID="progress-bar">
         <Progress.Bar
