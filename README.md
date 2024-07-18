@@ -8,7 +8,7 @@ Follow these steps to run the project on an Android or iOS emulator:
 use force because jest library is not competible with new version of react
 
 1. **Install dependencies**:
-   Make sure you use npm not yarn
+   Make sure you use npm not yarn, Also make sure you use **--force** to install the dependencies becuase react native new version is not compatible with one of the library
 
    npm install --force
 
